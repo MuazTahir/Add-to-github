@@ -1,0 +1,112 @@
+#container{
+    height: 50rem;
+    background-image: url(img/robson-hatsukami-morgan-NKr0qBAkU4s-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#container-info{
+    width: 56.25rem;
+    background-color: rgba(46, 48, 48, 0.6);
+    box-shadow: 1px 2px 4px rgb(56, 49, 49);
+    border-radius: 1.25rem;
+    text-align: center;
+    
+    padding: 1.25rem 0;
+    margin: 0 auto;
+    position: relative;
+    top: 12.5rem;
+}
+
+#container-info h1{
+    font-size: 2rem;
+    color: bisque;
+    text-transform: uppercase;
+
+
+}
+#container-info p{
+    font-size: 1.5rem;
+    font-family: fantasy;
+    color: burlywood;
+    text-shadow: 1px 1px 2px rgb(56, 49, 49);
+    margin-bottom: 2rem;
+}
+
+#container-info a{
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+    background-color: darkslategrey;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+}
+
+#container-info a:hover{
+    background-color: rgb(61, 103, 103);
+}
+#highlights{
+    background: linear-gradient(70deg, rgb(109, 135, 135), rgb(79, 78, 78));
+    padding: 24px;
+}
+
+#highlights h2{
+    margin: 24px 0;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 300;
+    color: burlywood;
+}
+#locations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+.location-info img{
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(56, 49, 49);
+    object-fit: cover;
+}
+.location-info{
+    margin: 0 20px;
+}
+
+#locations li{
+    list-style-type: none;
+}
+
+.location-info p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: center;
+    color: darkgrey;
+}
+.location-info strong{
+    color: rgb(129, 244, 244);
+}
+
+footer{
+    background-color: dimgray;
+    padding: 40px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer li{
+    width: 80px;
+    height: 80px;
+    margin: 0 12px;
+}
+
+footer img{
+    width: 100%;
+    height: 100%;
+}
